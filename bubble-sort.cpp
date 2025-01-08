@@ -26,9 +26,9 @@ void bubbleSort(vector<int>& arr) {
     }
 }
 
-void printVector(const vector<int>& arr) {
+void printVector(const vector<int> &arr) {
     for (int num : arr) {
-        cout <<" "<< num;
+        cout <<num<<" ";
     }
     cout << endl;
 }
@@ -38,8 +38,9 @@ int main() {
     int n = sizeof(arr)/sizeof(arr[0]);
     cout << "Unsorted array: ";
     printVector(arr);
+
     bubbleSort(arr);
-    cout << "Sorted array: \n";
+    cout << "Sorted array:   ";
     printVector(arr);
     return 0;
 }
