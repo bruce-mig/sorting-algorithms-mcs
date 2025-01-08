@@ -42,8 +42,8 @@ int main() {
     printArray(arr); 
 
     selectionSort(arr);
-    
-    cout << "Sorted array: ";
+
+    cout << "Sorted array:   ";
     printArray(arr);
 
     return 0;
