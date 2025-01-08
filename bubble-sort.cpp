@@ -5,7 +5,7 @@
  */
 
 #include <iostream>
-// #include <algorithm> // Include the algorithm header for std::swap
+#include <algorithm> // Include the algorithm header for std::swap
 using namespace std;
 
 void bubbleSort(int arr[], int n) {
