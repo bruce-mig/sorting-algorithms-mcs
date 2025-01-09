@@ -9,7 +9,7 @@
 #include <algorithm>
 using namespace std;
 
-void bubbleSort(vector<int>& arr) {
+void bubbleSort(vector<int> &arr) {
     int n = arr.size();
     bool swapped;
     for (int i = 0; i < n-1; i++) {
